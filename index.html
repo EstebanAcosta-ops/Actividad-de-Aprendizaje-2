@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Sencillas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1> Recetas Sencillas</h1>
+        <p>Aprende a preparar deliciosas recetas de manera fácil y rápida</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#recetas">Recetas</a>
+        <a href="#tabla">Información</a>
+        <a href="#video">Multimedia</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenidos a Recetas Sencillas</h2>
+        <p>
+            Cocinar no tiene que ser complicado. En esta página encontrarás
+            recetas fáciles, económicas y deliciosas que puedes preparar
+            en poco tiempo.
+        </p>
+        <p>
+            Nuestro objetivo es ayudarte a descubrir que cualquier persona
+            puede preparar platos deliciosos siguiendo unos sencillos pasos.
+        </p>
+    </section>
+    <section id="recetas">
+        <h2> Recetas fáciles</h2>
+        <div class="recetas">
+            <article>
+                <img
+                    src="Pizza.jpg"
+                    alt="Pizza casera">
+
+                <h3>Pizza casera</h3>
+                <p>
+                    Una pizza sencilla que puedes preparar con ingredientes
+                    que normalmente tienes en casa.
+                </p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>Harina</li>
+                    <li>Queso</li>
+                    <li>Salsa de tomate</li>
+                    <li>Jamón</li>
+                    <li>Orégano</li>
+                </ul>
+                <h4>Preparación:</h4>
+                <ol>
+                    <li>Preparar la masa.</li>
+                    <li>Agregar la salsa de tomate.</li>
+                    <li>Añadir queso y demás ingredientes.</li>
+                    <li>Hornear durante 15-20 minutos.</li>
+                </ol>
+                <button onclick="alert('¡Excelente elección! Preparar pizza es muy fácil.')">
+                    Ver receta
+                </button>
+            </article>
+            <article>
+                <img
+                    src="Ensalada.jpg"
+                    alt="Ensalada saludable">
+
+                <h3>Ensalada saludable</h3>
+                <p>
+                    Una ensalada fresca, saludable y rápida para acompañar
+                    cualquier comida.
+                </p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>Lechuga</li>
+                    <li>Tomate</li>
+                    <li>Pepino</li>
+                    <li>Zanahoria</li>
+                    <li>Limón</li>
+                </ul>
+                <h4>Preparación:</h4>
+                <ol>
+                    <li>Lavar todos los vegetales.</li>
+                    <li>Cortar los ingredientes.</li>
+                    <li>Mezclarlos en un recipiente.</li>
+                    <li>Agregar limón al gusto.</li>
+                </ol>
+                <button onclick="alert('¡Una ensalada lista en pocos minutos!')">
+                    Ver receta
+                </button>
+            </article>
+            <article>
+                <img
+                    src="Pasta.jpg"
+                    alt="Pasta con tomate">
+
+                <h3>Pasta con tomate</h3>
+                <p>
+                    Una receta clásica y económica para disfrutar de una
+                    comida deliciosa.
+                </p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>Pasta</li>
+                    <li>Tomate</li>
+                    <li>Ajo</li>
+                    <li>Aceite de oliva</li>
+                    <li>Queso parmesano</li>
+                </ul>
+                <h4>Preparación:</h4>
+                <ol>
+                    <li>Cocinar la pasta.</li>
+                    <li>Preparar la salsa de tomate.</li>
+                    <li>Mezclar la pasta con la salsa.</li>
+                    <li>Agregar queso al servir.</li>
+                </ol>
+                <button onclick="alert('¡La pasta está lista para disfrutar!')">
+                    Ver receta
+                </button>
+            </article>
+        </div>
+    </section>
+    <section id="tabla">
+        <h2>Información de las recetas</h2>
+        <table>
+            <tr>
+                <th>Receta</th>
+                <th>Tiempo</th>
+                <th>Dificultad</th>
+                <th>Porciones</th>
+            </tr>
+            <tr>
+                <td>Pizza casera</td>
+                <td>30 minutos</td>
+                <td>Media</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Ensalada saludable</td>
+                <td>10 minutos</td>
+                <td>Fácil</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Pasta con tomate</td>
+                <td>20 minutos</td>
+                <td>Fácil</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </section>
+    <section id="video" class="multimedia"> 
+        <h2> Aprende a cocinar</h2> 
+        <p> Aprende nuevas recetas y técnicas de cocina mediante estos videos. </p> 
+        <div class="videos">
+            <div class="video-container"> 
+                <h3>Video de cocina 1</h3> 
+                <iframe src="https://www.youtube.com/embed/UYyHci_ZzxY" title="Video de cocina 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> 
+                </iframe> 
+                <h3>Video de cocina 2</h3> 
+                <iframe src="https://www.youtube.com/embed/oqjYuZE-5mA" title="Video de cocina 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> 
+                </iframe> 
+            </div> 
+        </div> 
+    </section>
+    <footer>
+        <p>
+            &copy; 2026 Recetas Sencillas - Todos los derechos reservados.
+        </p>
+        <p>
+            Una página creada para aprender y disfrutar de la cocina.
+        </p>
+
+    </footer>
+
+</body>
+</html>
